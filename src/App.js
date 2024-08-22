@@ -11,6 +11,7 @@ function App() {
   };
   return (
     <div className="App">
+      <input></input>
       <button onClick={increment}>take a count </button>
       <button onClick={decrement}>less a count</button>
       <p>{count}</p>
